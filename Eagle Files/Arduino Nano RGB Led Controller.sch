@@ -6013,7 +6013,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="U$2" library="MyLibrary" deviceset="GND" device=""/>
 <part name="U$3" library="MyLibrary" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="+5V" device=""/>
-<part name="R1" library="pot" deviceset="3RP/1610N" device="" value="10K"/>
+<part name="R4" library="pot" deviceset="3RP/1610N" device="" value="10K"/>
 <part name="SUPPLY2" library="supply2" deviceset="+5V" device=""/>
 <part name="U$4" library="MyLibrary" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -6032,7 +6032,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GREEN" library="MySemicontuctors" deviceset="IRFZ44N" device=""/>
 <part name="BLUE" library="MySemicontuctors" deviceset="IRFZ44N" device=""/>
 <part name="U$8" library="MyLibrary" deviceset="GND" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="M1206" value="10K"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="M1206" value="10K"/>
 <part name="U$9" library="MyLibrary" deviceset="GND" device=""/>
@@ -6053,7 +6053,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="U$2" gate="G$1" x="48.26" y="25.4"/>
 <instance part="U$3" gate="G$1" x="109.22" y="22.86"/>
 <instance part="SUPPLY1" gate="+5V" x="43.18" y="73.66"/>
-<instance part="R1" gate="G$1" x="15.24" y="45.72" rot="R90"/>
+<instance part="R4" gate="G$1" x="15.24" y="45.72" rot="R90"/>
 <instance part="SUPPLY2" gate="+5V" x="7.62" y="50.8"/>
 <instance part="U$4" gate="G$1" x="22.86" y="43.18"/>
 <instance part="+3V1" gate="G$1" x="48.26" y="76.2" smashed="yes">
@@ -6076,7 +6076,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GREEN" gate="G$1" x="124.46" y="-35.56"/>
 <instance part="BLUE" gate="G$1" x="147.32" y="-35.56"/>
 <instance part="U$8" gate="G$1" x="124.46" y="-50.8"/>
-<instance part="R4" gate="G$1" x="101.6" y="-15.24" rot="R90"/>
+<instance part="R1" gate="G$1" x="101.6" y="-15.24" rot="R90"/>
 <instance part="R5" gate="G$1" x="124.46" y="-15.24" rot="R90"/>
 <instance part="R6" gate="G$1" x="147.32" y="-15.24" rot="R90"/>
 <instance part="U$9" gate="G$1" x="124.46" y="2.54" rot="R180"/>
@@ -6112,7 +6112,7 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="25.4" y="76.2"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="A"/>
+<pinref part="R4" gate="G$1" pin="A"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 <wire x1="20.32" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="45.72" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
@@ -6145,7 +6145,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="124.46" y1="-40.64" x2="124.46" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U$9" gate="G$1" pin="GND"/>
 <wire x1="101.6" y1="-10.16" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="2.54" x2="124.46" y2="2.54" width="0.1524" layer="91"/>
@@ -6188,7 +6188,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="43.18" y1="38.1" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="E"/>
+<pinref part="R4" gate="G$1" pin="E"/>
 <pinref part="SUPPLY2" gate="+5V" pin="+5V"/>
 <wire x1="10.16" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="45.72" x2="7.62" y2="48.26" width="0.1524" layer="91"/>
@@ -6227,7 +6227,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="M1" gate="G$1" pin="A0"/>
 <wire x1="55.88" y1="58.42" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="58.42" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="S"/>
+<pinref part="R4" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6309,7 +6309,7 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="RED" class="1">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="RED" gate="G$1" pin="D"/>
 <wire x1="101.6" y1="-20.32" x2="101.6" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-25.4" x2="101.6" y2="-30.48" width="0.1524" layer="91"/>
