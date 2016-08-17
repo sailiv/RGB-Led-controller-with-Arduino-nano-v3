@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/vilia/Documents/eagle/RGB Led Controller/RGB Led Controller.brd
 
-Start at      : 12:03:31 (20/7/2016)
-End at        : 12:03:50 (20/7/2016)
-Elapsed time  : 00:00:17
+Start at      : 12:38:34 (17/8/2016)
+End at        : 12:38:41 (17/8/2016)
+Elapsed time  : 00:00:01
 
-Signals       :    15   RoutingGrid: 6.25 mil  Layers: 2
-Connections   :    58   predefined:  23 ( 0 Vias )
+Signals       :    16   RoutingGrid: 25 mil  Layers: 2
+Connections   :    59   predefined:  23 ( 0 Vias )
 
-Router memory :   3880872
+Router memory :   88320
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:04  00:00:04  00:00:03  00:00:03  00:00:03
+Time per pass     :  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :         6        35        35        35        35        35
-Vias              :         0        33         8         4         5         5
-Resolution        :    50.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         3        36        36        36        36        36
+Vias              :         0        25         5         3         0         1
+Resolution        :    44.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
